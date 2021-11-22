@@ -46,11 +46,12 @@ Software architecture description to be added...
 
 **Entity-Relationship (ER) Diagram**
 TODO: Create image folder to add current and future diagrams
-![ER Diagram]()
+![ER Diagram](./images/ER.png)
 
 **UI Prototype**
-![UI Prototype]()
-
+![Home Page Prototype](./images/home.png)
+![Appointment Page Prototype](./images/calendar.png)
+![Profile Page Prototype](./images/profile.png)
 
 ## Program Management Report (PMR)
 To be added...
