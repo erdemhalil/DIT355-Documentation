@@ -49,7 +49,7 @@ TODO: Create image folder to add current and future diagrams
 ![ER Diagram](./images/ER.png)
 
 **UI Prototype**
-![Home Page Prototype](./images/home.png)
+![Home Page Prototype](./images/homepage.png)
 ![Appointment Page Prototype](./images/calendar.png)
 ![Profile Page Prototype](./images/profile.png)
 
