@@ -42,10 +42,19 @@ A map showing all available dentists in the area will be used. The user then wil
 [Click here to see SRS](./srs/specification.md)
 
 ## Software Architecture Document (SAD)
-Conceptual design description to be added...
+
 #### Architecture Styles
-- Client-server
-- Publish/Subscribe
+- Client-server:
+Used between the client (front-end) and the remaining components of the distributed system.
+- Publish/Subscribe:
+For communication between the User Interface and the Interpreter component which will transform the data that comes through MQTT into HTTP requests and vice versa.
+
+#### Architectural Drivers
+- Scalability:
+Making use of the distributed architecture allows the system to be highly scalable. If one wants to increase the throughput of the system, adding new resources will be not only enough but also easy
+- Maintainability:
+Having decoupling distributed components means that modularity is in place. What is more, independent "nodes" allow easier maintenance and modifiability.
+
 
 #### Components
 The system will consist of 4 components:
@@ -54,8 +63,8 @@ The system will consist of 4 components:
 - Server
 - Client-Map
 
-Component diagram to be created and added...
-Simple workflow explanation to be added...
+**Component Diagram**
+![Component Diagram](./images/component.png)
 
 **Entity-Relationship (ER) Diagram**
 
