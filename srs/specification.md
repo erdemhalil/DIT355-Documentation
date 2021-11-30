@@ -18,7 +18,7 @@ Acceptance criteria:
 The documentation should cover the technical details of the application.
 
 ### Milestone 2
-**User Stories** 
+**User Stories**
 4. Initial commit for front- and back-end
 As a developer, I want to have a template for the front and back end done so I can easily find where and what to work on. 
 Acceptance criteria: 
@@ -45,7 +45,7 @@ As a developer, I want to have a GUI implemented so that I can better understand
 Acceptance criteria:
 The GUI should represent the prototype.
 
-Implement authentication capabilities 
+9. Implement authentication capabilities 
 As a user, I want to safely and securely authenticate and register. 
 Acceptance criteria:
 Authentication uses Json Web Tokens to authenticate users.

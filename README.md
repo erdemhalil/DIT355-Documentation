@@ -51,7 +51,7 @@ For communication between the User Interface and the Interpreter component which
 
 #### Architectural Drivers
 - Scalability:
-Making use of the distributed architecture allows the system to be highly scalable. If one wants to increase the throughput of the system, adding new resources will be not only enough but also easy
+Making use of the distributed architecture allows the system to be highly scalable. If one wants to increase the throughput of the system, adding new resources will be not only enough but also easy.
 - Maintainability:
 Having decoupling distributed components means that modularity is in place. What is more, independent "nodes" allow easier maintenance and modifiability.
 
@@ -64,6 +64,7 @@ The system will consist of 4 components:
 - Client-Map
 
 **Component Diagram**
+
 ![Component Diagram](./images/component.png)
 
 **Entity-Relationship (ER) Diagram**
