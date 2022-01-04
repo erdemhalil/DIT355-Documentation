@@ -37,6 +37,7 @@ A map showing all available dentists in the area will be used. The user then wil
 - [Server](https://git.chalmers.se/courses/dit355/test-teams-formation/team-2/server)
 - [Client-Map](https://git.chalmers.se/courses/dit355/test-teams-formation/team-2/client-map)
 - [Interpreter](https://git.chalmers.se/courses/dit355/test-teams-formation/team-2/interpreter)
+- [Web Socket Server](https://git.chalmers.se/courses/dit355/test-teams-formation/team-2/ws-server)
 
 ## Software Requirement Specification (SRS)
 [Click here to see SRS](./srs/specification.md)
@@ -54,14 +55,23 @@ For communication between the User Interface and the Interpreter component which
 Making use of the distributed architecture allows the system to be highly scalable. If one wants to increase the throughput of the system, adding new resources will be not only enough but also easy.
 - Maintainability:
 Having decoupling distributed components means that modularity is in place. What is more, independent "nodes" allow easier maintenance and modifiability.
+- Interoperability: 
+The ability for different systems to communicate with one another is known as interoperability. Data is shared and exchanged between systems using communication. When utilizing the MQTT broker, this is visible.
 
+#### Quality of Service
+
+We have decided to make use of QoS 1 for sending and receiving all MQTT messages within our distributed system.   
+QoS 1 means that every message will be sent at least one time and guarantees that the receiver will be delivered. The sender stores the message data until the receiver sends a confirmation message confirming the delivery of the message. If the confirmation is not received within a predefined period of time, the message will be sent again. The process is repeated until a confirmation is received.
+
+QoS 0 is simply not enough because it works on "fire and forget" principle which means that delivery is not guaranteed. On the other hand, implementing QoS 2 creates an unnecessary overhead for our system as the sender strives to deliver the message exactly once which increases message delivery speed significantly. As speed is of importance and sending/receiving the same message multiple times does not affect our system, we think that using QoS 1 for the whole system makes perfect sense for our case.
 
 #### Components
-The system will consist of 4 components:
-- User Interface
-- Interpreter
-- Server
-- Client-Map
+The system consists of 5 components:
+- [User Interface](https://git.chalmers.se/courses/dit355/test-teams-formation/team-2/client)
+- [Interpreter](https://git.chalmers.se/courses/dit355/test-teams-formation/team-2/interpreter)
+- [Server](https://git.chalmers.se/courses/dit355/test-teams-formation/team-2/server)
+- [Client-Map](https://git.chalmers.se/courses/dit355/test-teams-formation/team-2/client-map)
+- [Web Socket Server](https://git.chalmers.se/courses/dit355/test-teams-formation/team-2/ws-server)
 
 **Component Diagram**
 
@@ -70,6 +80,14 @@ The system will consist of 4 components:
 **Entity-Relationship (ER) Diagram**
 
 ![ER Diagram](./images/ER.png)
+
+**Use Case Diagram**
+
+To be added...
+
+**Sequence Diagram**
+
+To be added...
 
 **UI Prototype**
 
