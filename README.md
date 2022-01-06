@@ -83,11 +83,15 @@ The system consists of 5 components:
 
 **Use Case Diagram**
 
-To be added...
+![Use Case Diagram](./images/Use_Case_Diagram.png)
 
-**Sequence Diagram**
+**Booking Sequence Diagram**
 
-To be added...
+![Booking Sequence Diagram](./images/Booking_sequence_diagram.png)
+
+**Login Sequence Diagram**
+
+![Login Sequence Diagram](./images/Login_sequence_diagram.png)
 
 **UI Prototype**
 
