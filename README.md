@@ -93,11 +93,14 @@ The system consists of 5 components:
 
 ![Login Sequence Diagram](./images/Login_sequence_diagram.png)
 
-**UI Prototype**
+**UI**
 
-![Home Page Prototype](./images/homepage.png)
-![Appointment Page Prototype](./images/calendar.png)
-![Profile Page Prototype](./images/profile.png)
+![Home Page](./images/homepage.png)
+![Login](./images/login.png)
+![Map](./images/map.png)
+![Appointment Page](./images/calendar.png)
+![Profile Page](./images/profile.png)
+![404](./images/404.png)
 
 ## Program Management Report (PMR)
 During the entirety of the project, the team will follow agile software development and Scrum principles. The deadline for project completion is 2022/01/05. Given the short lifecylce of the project, the Scrum Master will be the same team member unless extreme and unexpected situations occur. - A typical Sprint will run for 2 weeks starting with Sprint Planning meeting with all of the team members. 
