@@ -49,6 +49,8 @@ A map showing all available dentists in the area will be used. The user then wil
 Used between the client (front-end) and the remaining components of the distributed system.
 - Publish/Subscribe:
 For communication between the User Interface and the Interpreter component which will transform the data that comes through MQTT into HTTP requests and vice versa.
+- Event-driven with event broker
+We also chose the event-driven architecture style with an event broker because It is best suited for using with MQTT whilst having multiple components. The Interpreter and MQTT server will act as our system’s coordinator, sorting out requests from different front-end components and sending them to the corresponding backend components and middleware.
 
 #### Architectural Drivers
 - Scalability:
