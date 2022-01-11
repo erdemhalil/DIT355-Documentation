@@ -23,6 +23,11 @@ Current situation shows that booking a dentist appointment in the city of Gothen
 ### How?
 A map showing all available dentists in the area will be used. The user then will only need to choose a dentist and subsequently pick a suitable timeslot for themselves. The system as a whole will be responsible for handling the requests and responding with the most up-to-date data.
 
+### Video 
+
+To watch our presentation video, [click here](https://drive.google.com/file/d/1mV_w1G6Ca5RM5Sq5yqR6pxLDOyS73A22/view?usp=sharing)!
+
+
 ### Team Members
 - [Anis Bourbia](https://git.chalmers.se/bourbia)
 - [Cuong Darma Le Manh](https://git.chalmers.se/darma)
